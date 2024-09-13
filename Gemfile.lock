@@ -238,7 +238,6 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   brakeman
-  bundler (~> 2.3)
   debug
   puma (>= 5.0)
   rack-cors
