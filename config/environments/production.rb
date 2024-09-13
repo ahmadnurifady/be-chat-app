@@ -34,7 +34,7 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain.
   # config.action_cable.mount_path = nil
-  config.action_cable.url = "wss://be-chat-app-production.up.railway.app/cable"
+  config.action_cable.url = "ws://be-chat-app-production.up.railway.app/cable"
   config.action_cable.allowed_request_origins = [ "http://be-chat-app-production.up.railway.app", "https://be-chat-app-production.up.railway.app" ]
 
   # Assume all access to the app is happening through a SSL-terminating reverse proxy.
